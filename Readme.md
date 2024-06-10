@@ -2,7 +2,7 @@
 
 * Студент: [Виктория Семенова](https://up.htmlacademy.ru/htmlcss-individual/2/user/2548127).
 * Наставник: [Малик Киров](https://htmlacademy.ru/profile/id17217).
-
+* Сайт: [Мой проект Седона](https://vjik08.github.io/2548127-sedona-2/)
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
