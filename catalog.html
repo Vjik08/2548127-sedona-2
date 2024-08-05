@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Гостиницы Седоны</title>
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
     <header class="page-header">
@@ -96,8 +97,8 @@
             </ul>
           </fieldset>
           <div class="button-filter">
-          <button class="button" type="submit">Применить</button>
-          <button class="button" type="reset">Сбросить</button>
+          <button class="button-filter button-filter-catalog-light" type="submit">Применить</button>
+          <button class="button-filter button-filter-catalog-none" type="reset">Сбросить</button>
           </div>
         </form>
       </section>
@@ -110,13 +111,13 @@
           <option value="expensive">Сначала дорогое</option>
         </select>
       <div class="select-button">
-        <a class="button button-current" href="#">
+        <a class="select-button button-current" href="#">
           <span class="visually-hidden">Показать таблицу</span>
         </a>
-        <a class="button" href="#">
+        <a class="select-button" href="#">
           <span class="visually-hidden">Показать карточки</span>
         </a>
-        <a class="button" href="#">
+        <a class="select-button" href="#">
           <span class="visually-hidden">Показать список</span>
         </a>
       </div>
@@ -228,9 +229,7 @@
       </section>
       <section class="footer-logo">
         <h2 class="visually-hidden">Логотип сайта разработчиков</h2>
-        <a class="footer-logo-developer-link" href="https://htmlacademy.ru/">
-          <img class="footer-logo-developer" alt="Логотип сайта разработчиков «HTML академии»" src="images/logo-htmlacademy.svg" width="115" height="33">
-        </a>
+        <a class="footer-logo-developer-link" href="https://htmlacademy.ru/">.htmlacademy</a>
       </section>
       </div>
     </footer>
